@@ -1,8 +1,149 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:ital,wght@0,300;0,400;1,600&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.fixedbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+.logoSpotify {
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+}
+.navbarleft {
+    float: left;
+    width: auto;
+}
+.navbarright {
+    float: right;
+    width: auto;
+}
+.navbarright > ul > li {
+    list-style: none;
+    float: left;
+    margin: 10px 20px;
+    width: auto;
+    font-size: 25px;
+}
+.navbarright > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+.landingImage {
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    height: 800px;
+    width: auto;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.landingImage > div,
+h1,
+h6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0%;
+}
+.landingImage > div > h1 {
+    font-size: 4em;
+    font-weight: lighter;
+}
+.landingImage > div > h6 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+#titleSection2 {
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+}
+#titleSection2 > span {
+    border-bottom: 3px solid #1DB954;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 10px 50px;
+}
+.box > div {
+    color: #1DB954;
+    font-size: 30px;
+    padding: 10px;
+}
+.box > p {
+    font-size: 20px;
+    color: gray;
+}
+.icon {
+    height: 80px;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    height: 650px;
+    background-color: #00B172;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 108px;
+    position: flex;
+    margin: 40px  15px 15px 15px;
+    padding: 36px 0px 0px 36px;
+}
+.kenye-img {
+    height: 505px;
+    margin-right: 145px;
+    position: flex;
+    right: 36px;
+    top: 56px;
+}
+.article-kenye-west {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    width: 35%;
+    margin: 45px;
+}
+.article-kenye-west > h2 {
+    font-size: 29px;
+    font-weight: 920px;
+    text-decoration: underline white;
+    text-underline-position: under;
+    text-underline-offset: 6px;
+}
+.article-kenye-west > p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.article-kenye-west > h3 {
+    font-size: 26px;
+    font-weight: 600px;
+    margin: 20px;
+}  
